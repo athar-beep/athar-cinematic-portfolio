@@ -58,7 +58,7 @@ h1.mega .row{display:block;overflow:hidden}
 h1.mega .row span{display:inline-block}
 h1.mega .outline{color:transparent;-webkit-text-stroke:2.5px var(--ink)}
 h1.mega .dot{color:var(--accent);-webkit-text-stroke:0}
-.portrait{position:absolute;right:clamp(0px,3vw,44px);bottom:120px;width:clamp(190px,24vw,330px);z-index:1;
+.portrait{position:absolute;right:clamp(0px,3vw,44px);bottom:48px;width:clamp(190px,min(24vw,33vh),330px);z-index:1;
   border-radius:16px;overflow:hidden;border:1px solid #333;
   box-shadow:0 0 0 1px rgba(227,43,60,.25),0 30px 80px rgba(0,0,0,.7),-18px 0 60px -18px rgba(227,43,60,.45)}
 .portrait img{width:100%;height:auto;filter:saturate(1.05)}
@@ -252,7 +252,7 @@ footer .top:hover{color:var(--accent)}
 /* ---------- responsive ---------- */
 @media(max-width:1100px){
   .process{grid-template-columns:repeat(3,1fr)}
-  .portrait{width:clamp(170px,26vw,250px);bottom:150px}
+  .portrait{width:clamp(170px,min(26vw,33vh),250px);bottom:150px}
 }
 @media(max-width:800px){
   nav.desktop{display:none}
